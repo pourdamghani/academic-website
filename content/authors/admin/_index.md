@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: direct Ph.D. student
+role: Ph.D. Candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -24,7 +24,7 @@ organizations:
     url: https://www.weizenbaum-institut.de/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am interested in algorithm design and analysis with applications in networks, distributed systems, and blockchains. My particular focus is on self-adjusting networks.
 
 # Interests to show in About widget
 interests:
@@ -52,19 +52,19 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/pourdamghani
     label: Follow me on Twitter
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=jsHuvKEAAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/pourdamghani/
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/pourdamghani/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
