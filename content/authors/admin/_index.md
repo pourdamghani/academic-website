@@ -3,8 +3,8 @@
 title: Alice Wu 吳恩達
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Arash
+last_name: Pourdamghani
 
 # Status emoji
 status:
@@ -14,12 +14,14 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: direct Ph.D. student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: TU Berlin
+    url: https://www.tu.berlin/en/eninet
+  - name: Weizenbaum Institute for the Networked Society
+    url: https://www.weizenbaum-institut.de/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
