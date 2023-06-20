@@ -1,17 +1,16 @@
 ---
-title: 'An example conference paper'
+title: 'SeedTree: A Dynamically Optimal and Local Self-Adjusting Tree'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
+  - Chen Avin
+  - Robert Sama
+  - Stefan Schmid
 
 # Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
 
 date: '2013-07-01T00:00:00Z'
 doi: ''
@@ -26,13 +25,15 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
+publication: In *IEEE Conference on Computer Communications*
+publication_short: In *INFOCOM'23*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: We consider the fundamental problem of designing a self-adjusting tree, which efficiently and locally adapts itself towards the demand it serves (namely accesses to the items stored by the tree nodes), striking a balance between the benefits of such adjustments (enabling faster access) and their costs (reconfigurations). This problem finds applications, among others, in the context of emerging demand-aware and reconfigurable datacenter networks and features connections to self-adjusting data structures. Our main contribution is SeedTree, a dynamically optimal self-adjusting tree which supports local (i.e., greedy) routing, which is particularly attractive under highly dynamic demands.
+SeedTree relies on an innovative approach which defines a set of unique paths based on randomized item addresses,
+and uses a small constant number of items per node. We complement our analytical results by showing the benefits of \system empirically, evaluating it on various synthetic and real-world communication traces.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: We introduce SeedTree, a dynamically optimal self-adjusting tree.
 
 tags: []
 
