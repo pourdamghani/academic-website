@@ -52,9 +52,8 @@ sections:
           company_url: ''
           company_logo: 
           location: Berlin
-          date_start: ''
+          date_start: '2023-04-01'
           date_end: ''
-          description: 
     design:
       columns: '2'
   - block: accomplishments
