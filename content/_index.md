@@ -26,15 +26,18 @@ sections:
     design:
       columns: '2'
       view: citation
-  
-  - block: features
+
+  - block: collection
+    id: talks
     content:
-      title: Skills
-      items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - event
+    design:
+      columns: '2'
+      view: compact
+
   - block: experience
     content:
       title: Experience
@@ -79,16 +82,17 @@ sections:
           url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     design:
       columns: '2'
-  - block: collection
-    id: talks
+
+
+  - block: features
     content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+      title: Skills
+      items:
+        - name: R
+          description: 90%
+          icon: r-project
+          icon_pack: fab
+
   - block: contact
     id: contact
     content:
