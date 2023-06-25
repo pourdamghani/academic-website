@@ -83,16 +83,6 @@ sections:
     design:
       columns: '2'
 
-
-  - block: features
-    content:
-      title: Skills
-      items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-
   - block: contact
     id: contact
     content:
